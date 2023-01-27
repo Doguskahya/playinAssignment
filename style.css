@@ -1,0 +1,38 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column
+}
+
+#container{
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+
+.cell{
+    height: 50px;
+    width: 50px;
+    clip-path: inset(2px 2px 2px 2px);
+    background: rgba(0,0,0,0.4);
+    float: left;
+}
+
+.block{
+    height: 46px;
+    width: 46px;
+    background: linear-gradient(to right, black, #434343);
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    text-align: center;
+    line-height: 46px;
+    font-weight: bold;
+    font-size: 25px;
+}
